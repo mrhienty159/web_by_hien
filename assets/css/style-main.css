@@ -323,6 +323,9 @@
 
 }
 
+.container__items--img{
+    min-height: 395px;
+}
 .single-item .container__items--content {
     position: absolute;
     bottom: 0;

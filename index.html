@@ -1,459 +1,485 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-    <link rel="stylesheet" href="./assets/css/grid.css">
-    <link rel="stylesheet" href="./assets/css/style-base.css">
-    <link rel="stylesheet" href="./assets/css/style-main.css">
-    <link rel="stylesheet" href="./assets/css/responsive.css">
-    <link rel="stylesheet" href="./assets/font/themify-icons/themify-icons.css">
-    <link rel="icon" href="./assets/img/logo/logo.png" type="image/icon png">
-    <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
-    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
-    <title>Hienty - IT Solutions & Services HTML Template</title>
-</head>
-<body>
-    <div id="main">
-        <div id="header">
-            <div class="header__preview">
-                <a href="#" class="header__logo">
-                    <p class="logo-name text-white">
-                        <i class="ti-drupal"></i>
-                        Hienty
-                    </p>
-                    
-                </a>
-                <nav class="navbar">
-                    <ul class="navbar-nav">
-                        <li class="navbar__item">
-                            <a href="#">
-                                Home
-                            </a>
-                        </li>
-                        <li class="navbar__item">
-                            <a href="#container">
-                                Products
-                            </a>
-                        </li>
-                        <li class="navbar__item">
-                            <a href="#feature">
-                                Awesome Features
-                            </a>
-                        </li>
-                        <li class="navbar__item">
-                            <a href="https://www.google.com/">
-                                Support
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        />
+        <link rel="stylesheet" href="./assets/css/grid.css" />
+        <link rel="stylesheet" href="./assets/css/style-base.css" />
+        <link rel="stylesheet" href="./assets/css/style-main.css" />
+        <link rel="stylesheet" href="./assets/css/responsive.css" />
+        <link
+            rel="stylesheet"
+            href="./assets/font/themify-icons/themify-icons.css"
+        />
+        <link
+            rel="icon"
+            href="./assets/img/logo/logo.png"
+            type="image/icon png"
+        />
+        <script
+            src="https://unpkg.com/react@17/umd/react.development.js"
+            crossorigin
+        ></script>
+        <script
+            src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"
+            crossorigin
+        ></script>
+        <title>Hienty - IT Solutions & Services HTML Template</title>
+    </head>
+    <body>
+        <div id="main">
+            <div id="header">
+                <div class="header__preview">
+                    <a href="#" class="header__logo">
+                        <p class="logo-name text-white">
+                            <i class="ti-drupal"></i>
+                            Hienty
+                        </p>
+                    </a>
+                    <nav class="navbar">
+                        <ul class="navbar-nav">
+                            <li class="navbar__item">
+                                <a href="#"> Home </a>
+                            </li>
+                            <li class="navbar__item">
+                                <a href="#container"> Products </a>
+                            </li>
+                            <li class="navbar__item">
+                                <a href="#feature"> Awesome Features </a>
+                            </li>
+                            <li class="navbar__item">
+                                <a href="https://www.google.com/"> Support </a>
+                            </li>
+                        </ul>
+                    </nav>
 
-                <div class="header__sign-in text-white text-center">
-                    Sign in
-                </div>
-
-                <label for="navbar__btn-input" class="navbar__btn">
-                    <i class="ti-menu"></i>
-                </label>
-                <input type="checkbox" class="navbar__btn-check" id="navbar__btn-input">
-                <label for="navbar__btn-input" class="nav__overplay">
-                </label>
-                <nav class="navbar__mobile">
-                    <label for="navbar__btn-input" class="navbar__mobile-header">
-                        <i class="ti-drupal icon"></i>
-                        <i class="ti-close"></i>
-                    </label>
-                    <ul class="navbar-nav__mobile">
-                        <li class="navbar__item-mobile">
-                            <a href="#">
-                                Home
-                            </a>
-                        </li>
-                        <li class="navbar__item-mobile">
-                            <a href="#container">
-                                Products
-                            </a>
-                        </li>
-                        <li class="navbar__item-mobile">
-                            <a href="#feature">
-                                Awesome Features
-                            </a>
-                        </li>
-                        <li class="navbar__item-mobile">
-                            <a href="https://www.google.com/">
-                                Support
-                            </a>
-                        </li>
-                    </ul>
-                    <div class="navbar-nav__mobile-btn text-white text-center">
+                    <div class="header__sign-in text-white text-center">
                         Sign in
                     </div>
-                </nav>
-            </div>
-            
-        </div>
 
-        <div id="banner">
-            <div class="banner__content text-white text-center">   
-                <div class="banner_logo">
-                    <i class="ti-drupal"></i>
+                    <label for="navbar__btn-input" class="navbar__btn">
+                        <i class="ti-menu"></i>
+                    </label>
+                    <input
+                        type="checkbox"
+                        class="navbar__btn-check"
+                        id="navbar__btn-input"
+                    />
+                    <label for="navbar__btn-input" class="nav__overplay">
+                    </label>
+                    <nav class="navbar__mobile">
+                        <label
+                            for="navbar__btn-input"
+                            class="navbar__mobile-header"
+                        >
+                            <i class="ti-drupal icon"></i>
+                            <i class="ti-close"></i>
+                        </label>
+                        <ul class="navbar-nav__mobile">
+                            <li class="navbar__item-mobile">
+                                <a href="#"> Home </a>
+                            </li>
+                            <li class="navbar__item-mobile">
+                                <a href="#container"> Products </a>
+                            </li>
+                            <li class="navbar__item-mobile">
+                                <a href="#feature"> Awesome Features </a>
+                            </li>
+                            <li class="navbar__item-mobile">
+                                <a href="https://www.google.com/"> Support </a>
+                            </li>
+                        </ul>
+                        <div
+                            class="navbar-nav__mobile-btn text-white text-center"
+                        >
+                            Sign in
+                        </div>
+                    </nav>
                 </div>
-                <h2 class="mt-16">Hienty - IT Solutions & Services
-                    <br>
-                    HTML Template + RTL
-                </h2>
             </div>
-        </div>
 
-        <div id="container">
-            <div class="container__list grid">
-                <div class="section__heading text-center text-black">
-                    <h2 class="section__title">
-                        Home Pages
+            <div id="banner">
+                <div class="banner__content text-white text-center">
+                    <div class="banner_logo">
+                        <i class="ti-drupal"></i>
+                    </div>
+                    <h2 class="mt-16">
+                        Hienty - IT Solutions & Services
+                        <br />
+                        HTML Template + RTL
                     </h2>
-                    <span class="section__title-big">
-                        Home Pages
-                    </span>
                 </div>
-                <div class="container__items row">
-                    <div class="col col-half c-4 s-12">
-                        <div class="single-item">
-                            <div class="container__items--img">
-                                <a href="#">
-                                    <img src="./assets/img/container-items/demo-1.jpg" alt="demo 1">
-                                </a>
-                            </div>
-                            <div class="container__items--content text-center">
-                                <h3>
-                                    Home demo - 1
-                                </h3>
-                            </div>
-                        </div>
+            </div>
 
+            <div id="container">
+                <div class="container__list grid">
+                    <div class="section__heading text-center text-black">
+                        <h2 class="section__title">Home Pages</h2>
+                        <span class="section__title-big"> Home Pages </span>
                     </div>
-                    <div class="col col-half c-4 s-12">
-                        <div class="single-item">
-                            <div class="container__items--img">
-                                <a href="#">
-                                    <img src="./assets/img/container-items/demo-2.jpg" alt="demo 2">
-                                </a>
-                            </div>
-                            <div class="container__items--content text-center ">
-                                <h3>
-                                    Home demo - 2
-                                </h3>
+                    <div class="container__items row">
+                        <div class="col col-half c-4 s-12">
+                            <a
+                                href="https://mrhienty159.github.io/wed-the-band/"
+                            >
+                                <div class="single-item">
+                                    <div class="container__items--img">
+                                        <img
+                                            src="./assets/img/container-items/web-the-band.png"
+                                            alt="demo 1"
+                                        />
+                                    </div>
+                                    <div
+                                        class="container__items--content text-center"
+                                    >
+                                        <h3>Web the band</h3>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col col-half c-4 s-12">
+                            <div class="single-item">
+                                <div class="container__items--img">
+                                    <a href="#">
+                                        <img
+                                            src="./assets/img/container-items/demo-2.jpg"
+                                            alt="demo 2"
+                                        />
+                                    </a>
+                                </div>
+                                <div
+                                    class="container__items--content text-center"
+                                >
+                                    <h3>Home demo - 2</h3>
+                                </div>
                             </div>
                         </div>
-
-                    </div>
-                    <div class="col col-half c-4 s-12">
-                        <div class="single-item">
-                            <div class="container__items--img">
-                                <a href="#">
-                                    <img src="./assets/img/container-items/demo-3.jpg" alt="demo 3">
-                                </a>
-                            </div>
-                            <div class="container__items--content text-center">
-                                <h3>
-                                    Home demo - 3
-                                </h3>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="col col-half c-4 s-12">
-                        <div class="single-item">
-                            <div class="container__items--img">
-                                <a href="#">
-                                    <img src="./assets/img/container-items/demo-6.jpg" alt="demo 4">
-                                </a>
-                            </div>
-                            <div class="container__items--content text-center">
-                                <h3>
-                                    Home demo - 4
-                                </h3>
+                        <div class="col col-half c-4 s-12">
+                            <div class="single-item">
+                                <div class="container__items--img">
+                                    <a href="#">
+                                        <img
+                                            src="./assets/img/container-items/demo-3.jpg"
+                                            alt="demo 3"
+                                        />
+                                    </a>
+                                </div>
+                                <div
+                                    class="container__items--content text-center"
+                                >
+                                    <h3>Home demo - 3</h3>
+                                </div>
                             </div>
                         </div>
-                    
-                    </div>
-                    <div class="col col-half c-4 s-12">
-                        <div class="single-item">
-                            <div class="container__items--img">
-                                <a href="#">
-                                    <img src="./assets/img/container-items/demo-5.jpg" alt="demo 5">
-                                </a>
-                            </div>
-                            <div class="container__items--content text-center">
-                                <h3>
-                                    Home demo - 5
-                                </h3>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="col col-half c-4 s-12">
-                        <div class="single-item">
-                            <div class="container__items--img">
-                                <a href="#">
-                                    <img src="./assets/img/container-items/demo-6.jpg" alt="demo 6">
-                                </a>
-                            </div>
-                            <div class="container__items--content text-center">
-                                <h3>
-                                    Home demo - 6
-                                </h3>
+                        <div class="col col-half c-4 s-12">
+                            <div class="single-item">
+                                <div class="container__items--img">
+                                    <a href="#">
+                                        <img
+                                            src="./assets/img/container-items/demo-6.jpg"
+                                            alt="demo 4"
+                                        />
+                                    </a>
+                                </div>
+                                <div
+                                    class="container__items--content text-center"
+                                >
+                                    <h3>Home demo - 4</h3>
+                                </div>
                             </div>
                         </div>
-
-                    </div>
-                    <div class="col col-half c-4 s-12">
-                        <div class="single-item">
-                            <div class="container__items--img">
-                                <a href="#">
-                                    <img src="./assets/img/container-items/demo-7.jpg" alt="demo 7">
-                                </a>
-                            </div>
-                            <div class="container__items--content text-center">
-                                <h3>
-                                    Home demo - 7
-                                </h3>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="col col-half c-4 s-12">
-                        <div class="single-item">
-                            <div class="container__items--img">
-                                <a href="#">
-                                    <img src="./assets/img/container-items/demo-8.jpg" alt="demo 8">
-                                </a>
-                            </div>
-                            <div class="container__items--content text-center">
-                                <h3>
-                                    Home demo - 8
-                                </h3>
+                        <div class="col col-half c-4 s-12">
+                            <div class="single-item">
+                                <div class="container__items--img">
+                                    <a href="#">
+                                        <img
+                                            src="./assets/img/container-items/demo-5.jpg"
+                                            alt="demo 5"
+                                        />
+                                    </a>
+                                </div>
+                                <div
+                                    class="container__items--content text-center"
+                                >
+                                    <h3>Home demo - 5</h3>
+                                </div>
                             </div>
                         </div>
-
-                    </div>
-                    <div class="col col-half c-4 s-12">
-                        <div class="single-item">
-                            <div class="container__items--img">
-                                <a href="#">
-                                    <img src="./assets/img/container-items/demo-9.jpg" alt="demo 9">
-                                </a>
-                            </div>
-                            <div class="container__items--content text-center">
-                                <h3>
-                                    Home demo - 9
-                                </h3>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="col col-half c-4 s-12">
-                        <div class="single-item">
-                            <div class="container__items--img">
-                                <a href="#">
-                                    <img src="./assets/img/container-items/demo-10.jpg" alt="demo 10">
-                                </a>
-                            </div>
-                            <div class="container__items--content text-center">
-                                <h3>
-                                    Home demo - 10
-                                </h3>
+                        <div class="col col-half c-4 s-12">
+                            <div class="single-item">
+                                <div class="container__items--img">
+                                    <a href="#">
+                                        <img
+                                            src="./assets/img/container-items/demo-6.jpg"
+                                            alt="demo 6"
+                                        />
+                                    </a>
+                                </div>
+                                <div
+                                    class="container__items--content text-center"
+                                >
+                                    <h3>Home demo - 6</h3>
+                                </div>
                             </div>
                         </div>
-
-                    </div>
-                    <div class="col col-half c-4 s-12">
-                        <div class="single-item">
-                            <div class="container__items--img">
-                                <a href="#">
-                                    <img src="./assets/img/container-items/coming-soon.jpg" alt="demo 5">
-                                </a>
-                            </div>
-                            <div class="container__items--content text-center">
-                                <h3>
-                                    Coming-soon
-                                </h3>
+                        <div class="col col-half c-4 s-12">
+                            <div class="single-item">
+                                <div class="container__items--img">
+                                    <a href="#">
+                                        <img
+                                            src="./assets/img/container-items/demo-7.jpg"
+                                            alt="demo 7"
+                                        />
+                                    </a>
+                                </div>
+                                <div
+                                    class="container__items--content text-center"
+                                >
+                                    <h3>Home demo - 7</h3>
+                                </div>
                             </div>
                         </div>
-
+                        <div class="col col-half c-4 s-12">
+                            <div class="single-item">
+                                <div class="container__items--img">
+                                    <a href="#">
+                                        <img
+                                            src="./assets/img/container-items/demo-8.jpg"
+                                            alt="demo 8"
+                                        />
+                                    </a>
+                                </div>
+                                <div
+                                    class="container__items--content text-center"
+                                >
+                                    <h3>Home demo - 8</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col col-half c-4 s-12">
+                            <div class="single-item">
+                                <div class="container__items--img">
+                                    <a href="#">
+                                        <img
+                                            src="./assets/img/container-items/demo-9.jpg"
+                                            alt="demo 9"
+                                        />
+                                    </a>
+                                </div>
+                                <div
+                                    class="container__items--content text-center"
+                                >
+                                    <h3>Home demo - 9</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col col-half c-4 s-12">
+                            <div class="single-item">
+                                <div class="container__items--img">
+                                    <a href="#">
+                                        <img
+                                            src="./assets/img/container-items/demo-10.jpg"
+                                            alt="demo 10"
+                                        />
+                                    </a>
+                                </div>
+                                <div
+                                    class="container__items--content text-center"
+                                >
+                                    <h3>Home demo - 10</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col col-half c-4 s-12">
+                            <div class="single-item">
+                                <div class="container__items--img">
+                                    <a href="#">
+                                        <img
+                                            src="./assets/img/container-items/coming-soon.jpg"
+                                            alt="demo 5"
+                                        />
+                                    </a>
+                                </div>
+                                <div
+                                    class="container__items--content text-center"
+                                >
+                                    <h3>Coming-soon</h3>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
 
-        </div>
-
-        <div id="feature">
-            <div class="feature__container">
-                <div class="section__heading text-center text-black">
-                    <h2 class="section__title">
-                        Features
-                    </h2>
-                    <span class="section__title-big">
-                        Features
-                    </span>
-                    <ul>
-                        <li>Built with Sass</li>
-                        <li class="border-left">Friendly Support</li>
-                        <li class="border-left">Powerful Design</li>
-                    </ul>
-                </div>
-                <div class="feature__items text-center row">
-                    <div class="col col-half c-4 s-12">
-                        <div class="single-item feature__item">
-                            <a href="#">
-                                <img src="./assets/img/feature/aos.png" alt="">
-                            </a>
-                            <h3>
-                                Aos Animation
-                            </h3>
-                        </div>
+            <div id="feature">
+                <div class="feature__container">
+                    <div class="section__heading text-center text-black">
+                        <h2 class="section__title">Features</h2>
+                        <span class="section__title-big"> Features </span>
+                        <ul>
+                            <li>Built with Sass</li>
+                            <li class="border-left">Friendly Support</li>
+                            <li class="border-left">Powerful Design</li>
+                        </ul>
                     </div>
-                    <div class="col col-half c-4 s-12">
-                        <div class="single-item feature__item">
-                            <a href="#">
-                                <img src="./assets/img/feature/bootstrap.png" alt="">
-                            </a>
-                            <h3>
-                                Built on Bootstrap (v5.x)
-                            </h3>
+                    <div class="feature__items text-center row">
+                        <div class="col col-half c-4 s-12">
+                            <div class="single-item feature__item">
+                                <a href="#">
+                                    <img
+                                        src="./assets/img/feature/aos.png"
+                                        alt=""
+                                    />
+                                </a>
+                                <h3>Aos Animation</h3>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col col-half c-4 s-12">
-                        <div class="single-item feature__item">
-                            <a href="#">
-                                <img src="./assets/img/feature/browser.png" alt="">
-                            </a>
-                            <h3>
-                                Browser Compatibility
-                            </h3>
+                        <div class="col col-half c-4 s-12">
+                            <div class="single-item feature__item">
+                                <a href="#">
+                                    <img
+                                        src="./assets/img/feature/bootstrap.png"
+                                        alt=""
+                                    />
+                                </a>
+                                <h3>Built on Bootstrap (v5.x)</h3>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col col-half c-4 s-12">
-                        <div class="single-item feature__item">
-                            <a href="#">
-                                <img src="./assets/img/feature/contact.png" alt="">
-                            </a>
-                            <h3>
-                                AJAX Contact Form
-                            </h3>
+                        <div class="col col-half c-4 s-12">
+                            <div class="single-item feature__item">
+                                <a href="#">
+                                    <img
+                                        src="./assets/img/feature/browser.png"
+                                        alt=""
+                                    />
+                                </a>
+                                <h3>Browser Compatibility</h3>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col col-half c-4 s-12">
-                        <div class="single-item feature__item">
-                            <a href="#">
-                                <img src="./assets/img/feature/developer.png" alt="">
-                            </a>
-                            <h3>
-                                Developer Friendly
-                            </h3>
+                        <div class="col col-half c-4 s-12">
+                            <div class="single-item feature__item">
+                                <a href="#">
+                                    <img
+                                        src="./assets/img/feature/contact.png"
+                                        alt=""
+                                    />
+                                </a>
+                                <h3>AJAX Contact Form</h3>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col col-half c-4 s-12">
-                        <div class="single-item feature__item">
-                            <a href="#">
-                                <img src="./assets/img/feature/flaticon.png" alt="">
-                            </a>
-                            <h3>
-                                Flaticon
-                            </h3>
+                        <div class="col col-half c-4 s-12">
+                            <div class="single-item feature__item">
+                                <a href="#">
+                                    <img
+                                        src="./assets/img/feature/developer.png"
+                                        alt=""
+                                    />
+                                </a>
+                                <h3>Developer Friendly</h3>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col col-half c-4 s-12">
-                        <div class="single-item feature__item">
-                            <a href="#">
-                                <img src="./assets/img/feature/font.png" alt="">
-                            </a>
-                            <h3>
-                                Google Fonts
-                            </h3>
+                        <div class="col col-half c-4 s-12">
+                            <div class="single-item feature__item">
+                                <a href="#">
+                                    <img
+                                        src="./assets/img/feature/flaticon.png"
+                                        alt=""
+                                    />
+                                </a>
+                                <h3>Flaticon</h3>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col col-half c-4 s-12">
-                        <div class="single-item feature__item">
-                            <a href="#">
-                                <img src="./assets/img/feature/owl.png" alt="">
-                            </a>
-                            <h3>
-                                Owl Carousel
-                            </h3>
+                        <div class="col col-half c-4 s-12">
+                            <div class="single-item feature__item">
+                                <a href="#">
+                                    <img
+                                        src="./assets/img/feature/font.png"
+                                        alt=""
+                                    />
+                                </a>
+                                <h3>Google Fonts</h3>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col col-half c-4 s-12">
-                        <div class="single-item feature__item">
-                            <a href="#">
-                                <img src="./assets/img/feature/remix.png" alt="">
-                            </a>
-                            <h3>
-                                Easy to Customize
-                            </h3>
+                        <div class="col col-half c-4 s-12">
+                            <div class="single-item feature__item">
+                                <a href="#">
+                                    <img
+                                        src="./assets/img/feature/owl.png"
+                                        alt=""
+                                    />
+                                </a>
+                                <h3>Owl Carousel</h3>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col col-half c-4 s-12">
-                        <div class="single-item feature__item">
-                            <a href="#">
-                                <img src="./assets/img/feature/ripple.png" alt="">
-                            </a>
-                            <h3>
-                                Smooth Transition
-                            </h3>
+                        <div class="col col-half c-4 s-12">
+                            <div class="single-item feature__item">
+                                <a href="#">
+                                    <img
+                                        src="./assets/img/feature/remix.png"
+                                        alt=""
+                                    />
+                                </a>
+                                <h3>Easy to Customize</h3>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col col-half c-4 s-12">
-                        <div class="single-item feature__item">
-                            <a href="#">
-                                <img src="./assets/img/feature/sass.png" alt="">
-                            </a>
-                            <h3>
-                                Built with Sass
-                            </h3>
+                        <div class="col col-half c-4 s-12">
+                            <div class="single-item feature__item">
+                                <a href="#">
+                                    <img
+                                        src="./assets/img/feature/ripple.png"
+                                        alt=""
+                                    />
+                                </a>
+                                <h3>Smooth Transition</h3>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col col-half c-4 s-12">
-                        <div class="single-item feature__item">
-                            <a href="#">
-                                <img src="./assets/img/feature/support.png" alt="">
-                            </a>
-                            <h3>
-                                Quick Support
-                            </h3>
+                        <div class="col col-half c-4 s-12">
+                            <div class="single-item feature__item">
+                                <a href="#">
+                                    <img
+                                        src="./assets/img/feature/sass.png"
+                                        alt=""
+                                    />
+                                </a>
+                                <h3>Built with Sass</h3>
+                            </div>
                         </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-
-        <div id="footer">
-            <div class="footer__container text-center text-white">
-                <div class="footer__content">
-
-                    <h1>
-                        Purchase the Hienty Template now and make everything easier!
-                    </h1>
-                    <button>
-                        Purchase Now!
-                    </button>
-                    <div class="copyright">
-                        <i class="ti-drupal">
-                            
-                        </i>
-                        <p>
-                            Crafted by
-                        </p>
-                        <a href="https://github.com/">
-                            EnvyTheme.com
-                        </a>
+                        <div class="col col-half c-4 s-12">
+                            <div class="single-item feature__item">
+                                <a href="#">
+                                    <img
+                                        src="./assets/img/feature/support.png"
+                                        alt=""
+                                    />
+                                </a>
+                                <h3>Quick Support</h3>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
+
+            <div id="footer">
+                <div class="footer__container text-center text-white">
+                    <div class="footer__content">
+                        <h1>
+                            Purchase the Hienty Template now and make everything
+                            easier!
+                        </h1>
+                        <button>Purchase Now!</button>
+                        <div class="copyright">
+                            <i class="ti-drupal"> </i>
+                            <p>Crafted by</p>
+                            <a href="https://github.com/"> EnvyTheme.com </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
-</body>
+    </body>
 </html>
